@@ -1,0 +1,24 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://s3.bucket.htb/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/05/07 20:10:08 Starting gobuster in directory enumeration mode
+===============================================================
+/health               (Status: 200) [Size: 54]
+/shell                (Status: 200) [Size: 0] 
+/shellcode            (Status: 500) [Size: 158]
+/shells               (Status: 500) [Size: 158]
+/shellscripts         (Status: 500) [Size: 158]
+
+[!] Keyboard interrupt detected, terminating.
+===============================================================
+2021/05/07 20:21:53 Finished
+===============================================================
